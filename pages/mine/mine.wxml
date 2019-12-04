@@ -1,0 +1,35 @@
+<view class='mine-container'>
+  <block wx:if="{{!hasUserInfo && canIUse}}">
+    <view class='default-user-container'>
+      <button class="default-user-button" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    </view>
+  </block>
+  <block wx:else>
+    <view class='user-container' bindtap='setInfoMore'>
+      <image class='user-icon' src="{{userInfo.avatarUrl}}" />
+      <view class="user-info-container">
+        <view class='user-name-gender-container'>
+          <text class='user-name-text'>{{userInfo.nickName}}</text>
+          <image class='user-gender-image' src="/resources/mine/male.png" />
+        </view>
+        <view class='user-school' wx:if="{{hasUserInfoIvory}}">
+          <text class='user-school-text'>{{userInfoIvory.schoolName ? userInfoIvory.schoolName : nullView}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  <view class='my-thing-container'>
+    <view class='thing-container'>
+      <image class='thing-image' src='/resources/mine/bicycle.png' />
+      <text class='thing-text'>我的活动</text>
+    </view> 
+    <view class='thing-container' bindtap='onMyCollect'>
+      <image class='thing-image' src='/resources/mine/collection.png' />
+      <text class='thing-text'>我的收藏</text>
+    </view>
+    <view class='thing-container' bindtap='onMyCard'>
+      <image class='thing-image' src='/resources/mine/money.png' />
+      <text class='thing-text'>我的卡券</text>
+    </view>
+  </view>
+</view>

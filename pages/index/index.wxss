@@ -1,0 +1,28 @@
+
+page {
+  background-color: #f8f8f8;
+}
+
+
+.index-msg-view{
+  flex-direction: row;
+  color:red;
+  margin: 50rpx;
+  font-size: 50rpx;
+  text-align:center;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 2rpx solid #f0f0f0;
+  background-color: white;
+}
+
+.query-msg-button{
+  display: block;
+  margin-top: 100rpx;
+  padding: 30rpx;
+  background-color: rgba(47, 137, 255, 0.979);
+}

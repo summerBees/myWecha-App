@@ -1,0 +1,5 @@
+<!--pages/welcome/welcome.wxml-->
+
+<text class ="welcome-msg-view">欢迎进入小程序</text>
+
+<button class ="wx-auth-button" open-type="getUserInfo" bindgetuserinfo="getAuthUserInfo">开始使用</button>

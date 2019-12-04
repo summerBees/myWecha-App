@@ -1,0 +1,16 @@
+/* pages/welcome/welcome.wxss */
+
+.welcome-msg-view{
+  display: block;
+  font-weight:bold;
+  text-align: center;
+  color: 14rpx;
+  font-size: 100;
+  margin: 100rpx;
+  font-family: 'YouYuan';
+}
+
+.wx-auth-button{
+  margin-top: 50rpx;
+  color: blue;
+}

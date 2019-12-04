@@ -1,0 +1,7 @@
+
+
+<view class="index-msg-view">这是一个简单的主页</view>
+
+<view>
+  <button class = "query-msg-button" bindtap="getDemoUserInfo">查看个人信息</button>
+</view>

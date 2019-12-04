@@ -1,0 +1,99 @@
+/* pages/mine/mine.wxss */
+
+.mine-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: white; 
+  align-items: center;
+}
+
+.default-user-container {
+  display: flex;
+  width: 90%;
+  height: 180rpx;
+  margin-top: 20rpx;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4rpx solid #F0F0F0;
+}
+
+.default-user-button {
+  width: 50%;
+  border: 1rpx solid #4769b1;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 180rpx;
+  margin-top: 20rpx;
+  border-bottom: 4rpx solid #F0F0F0;
+}
+
+.user-icon {  
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.user-info-container {
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.user-name-gender-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-name-text {
+  font-size: 34rpx;
+}
+
+.user-gender-image {
+  margin-left: 10rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.user-school {
+  padding-top: 5rpx;
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-school-text {
+  font-size: 26rpx;
+  color: #686868;
+}
+
+.my-thing-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40rpx;
+  width: 90%;
+}
+
+.thing-container {
+  display: flex;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thing-image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.thing-text {
+  margin-left: 40rpx;
+  font-size: 34rpx;
+}
